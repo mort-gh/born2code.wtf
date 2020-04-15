@@ -32,7 +32,7 @@ class Translations extends React.Component {
 
     return (
       <div className="translations">
-        <Panel style={{ fontFamily: systemFont }}>
+        {/* <Panel style={{ fontFamily: systemFont }}>
           {translations.length > 0 && (
             <span>
               {hasRussianTranslation && (
@@ -85,7 +85,7 @@ class Translations extends React.Component {
               <Link to={`/${lang}`}>View all translated posts</Link>{' '}
             </>
           )}
-        </Panel>
+        </Panel> */}
       </div>
     );
   }

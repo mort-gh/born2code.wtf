@@ -254,3 +254,35 @@ pre[data-line] {
   float: left;
   min-width: 100%;
 }
+
+
+
+/* icons */
+
+img[alt=Android],
+img[alt=Angular],
+img[alt=Apple],
+img[alt=Babel],
+img[alt=Bootstrap],
+img[alt=CoffeeScript],
+img[alt=CSS3],
+img[alt=Express],
+img[alt=Facebook],
+img[alt=GitHub],
+img[alt=Google],
+img[alt=Gulp],
+img[alt=HTML5],
+img[alt=JavaScript],
+img[alt=Mocha],
+img[alt=MongoDB],
+img[alt=NodeJS],
+img[alt=React],
+img[alt=ReactNative],
+img[alt=Redux],
+img[alt=Sass],
+img[alt=TypeScript],
+img[alt=Vue],
+img[alt=Webpack] {
+  width: 50px;
+  margin: 0 10px;
+}
