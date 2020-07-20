@@ -1,7 +1,7 @@
 ---
 title: 'GoITeens'
-date: '2020-03-07'
-spoiler: Landing-page for GoITeens children's IT school.
+date: '2019-11-28'
+spoiler: HTML5, CSS3 - Landing for GoITeens children's IT school.
 ---
 
 

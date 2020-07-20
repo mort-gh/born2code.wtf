@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'born2code',
+    title: 'works.hnatiuk.dev',
     author: 'Roma Hnatiuk',
     description: 'Personal blog by Roma Hnatiuk. The code I once wrote.',
-    siteUrl: 'https://born2code.wtf',
+    siteUrl: 'https://works.hnatiuk.dev',
     social: {
       twitter: '@hnatiukr',
     },
@@ -80,7 +80,7 @@ module.exports = {
               return allMarkdownRemark.edges.map(edge => {
                 const siteUrl = site.siteMetadata.siteUrl;
                 const postText = `
-                <div style="margin-top=55px; font-style: italic;">(This is an article posted to my blog at born2code.wtf. You can read it online by <a href="${siteUrl +
+                <div style="margin-top=55px; font-style: italic;">(This is an article posted to my blog at works.hnatiuk.dev. You can read it online by <a href="${siteUrl +
                   edge.node.fields.slug}">clicking here</a>.)</div>
               `;
 
@@ -126,47 +126,47 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
-            title: "Roma Hnatiuk's born2code Blog RSS Feed",
+            title: 'hnatiuk.dev blog RSS feed',
           },
         ],
       },
     },
-    {
-      resolve: `gatsby-plugin-ebook`,
-      options: {
-        filename: 'born2code-ebook.epub',
-        query: `
-          {
-            site {
-              siteMetadata {
-                title
-                author
-              }
-            }
-            allMarkdownRemark(
-              sort: { fields: frontmatter___date, order: ASC },
-              filter: { fields: { langKey: { eq: "en" } } }
-            ) {
-              edges {
-                node {
-                  id
-                  fileAbsolutePath
-                  rawMarkdownBody
-                  frontmatter {
-                    title
-                    date
-                  }
-                }
-              }
-            }
-          }`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-ebook`,
+    //   options: {
+    //     filename: 'born2code-ebook.epub',
+    //     query: `
+    //       {
+    //         site {
+    //           siteMetadata {
+    //             title
+    //             author
+    //           }
+    //         }
+    //         allMarkdownRemark(
+    //           sort: { fields: frontmatter___date, order: ASC },
+    //           filter: { fields: { langKey: { eq: "en" } } }
+    //         ) {
+    //           edges {
+    //             node {
+    //               id
+    //               fileAbsolutePath
+    //               rawMarkdownBody
+    //               frontmatter {
+    //                 title
+    //                 date
+    //               }
+    //             }
+    //           }
+    //         }
+    //       }`,
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `born2code`,
-        short_name: `born2code`,
+        name: `hnatiuk.dev`,
+        short_name: `hnatiuk.dev`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#ffa7c4`,

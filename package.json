@@ -1,16 +1,17 @@
 {
-  "name": "born2code",
+  "name": "hnatiuk.dev",
   "private": true,
   "engines": {
     "node": "12.x"
   },
-  "description": "born2code",
+  "description": "works.hnatiuk.dev",
   "version": "1.0.0",
-  "author": "Dan Abramov <dan.abramov@me.com>",
+  "author": "Roma Hnatiuk <gnatyuk.info@gmail.com>",
   "bugs": {
     "url": "https://github.com/mort-gh/born2code.wtf/issues"
   },
   "dependencies": {
+    "devicon": "^2.2.0",
     "gatsby": "^2.0.76",
     "gatsby-plugin-catch-links": "^2.0.9",
     "gatsby-plugin-ebook": "^1.0.2",
@@ -50,7 +51,7 @@
     "glob": "^7.1.3",
     "prettier": "^1.14.2"
   },
-  "homepage": "https://born2code.wtf",
+  "homepage": "https://works.hnatiuk.dev",
   "license": "MIT",
   "scripts": {
     "dev": "gatsby develop",
@@ -60,7 +61,7 @@
     "start": "npm run develop",
     "build": "rm -rf public && rm -rf .cache && gatsby build",
     "now-build": "gatsby build",
-    "deploy": "yarn build && cp now.json public/ && cd public && now alias $(now) born2code.wtf",
+    "deploy": "yarn build && cp now.json public/ && cd public && now alias $(now) works.hnatiuk.dev",
     "dry": "yarn build && cp now.json public/ && cd public && now",
     "js-to-jsx": "node src/utils/js-to-jsx"
   },

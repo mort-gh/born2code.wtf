@@ -1,7 +1,7 @@
 ---
 title: 'Body Perfect'
-date: '2020-04-01'
-spoiler: Mobile application for diet
+date: '2020-03-01'
+spoiler: React Native - Mobile application for diet
 cta: 'react'
 ---
 

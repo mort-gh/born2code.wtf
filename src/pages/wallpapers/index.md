@@ -1,7 +1,7 @@
 ---
 title: 'Wallpapers'
-date: '2020-03-20'
-spoiler: Select and search for wallpapers.
+date: '2020-01-15'
+spoiler: React - Select and search for wallpapers.
 cta: 'react'
 ---
 

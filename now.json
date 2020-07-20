@@ -34,7 +34,7 @@
       }
     }
   ],
-  "alias": "born2code.wtf",
+  "alias": "hnatiuk.dev",
   "builds": [{
     "use": "@now/static-build",
     "src": "package.json",

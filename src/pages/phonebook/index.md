@@ -1,7 +1,7 @@
 ---
 title: 'Phonebook'
-date: '2020-03-26'
-spoiler: Simple web phonebook
+date: '2020-01-21'
+spoiler: React - Simple web phonebook
 ---
 
 ![Webpack](./webpack-plain.svg)

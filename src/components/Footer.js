@@ -11,11 +11,30 @@ class Footer extends React.Component {
           paddingTop: rhythm(1),
         }}
       >
-        {/* <div style={{ float: 'right' }}>
-          <a href="/rss.xml" target="_blank" rel="noopener noreferrer">
-            rss
-          </a>
-        </div> */}
+        <a
+          href="https://hnatiuk.dev/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          main page
+        </a>{' '}
+        &bull;{' '}
+        <a
+          href="https://www.linkedin.com/in/hnatiukr/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          linkedin
+        </a>{' '}
+        &bull;{' '}
+        <a
+          href="https://www.facebook.com/hnatiukr"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          facebook
+        </a>{' '}
+        &bull;{' '}
         <a
           href="https://twitter.com/hnatiukr"
           target="_blank"
@@ -31,14 +50,6 @@ class Footer extends React.Component {
         >
           github
         </a>{' '}
-        {/* &bull;{' '}
-        <a
-          href="https://stackoverflow.com/users/458193/dan-abramov"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          stack overflow
-        </a> */}
       </footer>
     );
   }

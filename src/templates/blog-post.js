@@ -137,7 +137,7 @@ class BlogPostTemplate extends React.Component {
       enSlug.length - 1
     )}/index${lang === 'en' ? '' : '.' + lang}.md`;
     const discussUrl = `https://mobile.twitter.com/search?q=${encodeURIComponent(
-      `https://born2code.wtf${enSlug}`
+      `https://works.hnatiuk.dev${enSlug}`
     )}`;
 
     return (
@@ -211,7 +211,7 @@ class BlogPostTemplate extends React.Component {
               }}
               to={'/'}
             >
-              born2code
+              works.hnatiuk.dev
             </Link>
           </h3>
           <Bio />
