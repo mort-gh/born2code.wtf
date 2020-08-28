@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'works.hnatiuk.dev',
+    title: 'My wokrs',
     author: 'Roma Hnatiuk',
     description: 'Personal blog by Roma Hnatiuk. The code I once wrote.',
-    siteUrl: 'https://works.hnatiuk.dev',
+    siteUrl: 'http://blog.born2code.wtf/',
     social: {
       twitter: '@hnatiukr',
     },
@@ -80,7 +80,7 @@ module.exports = {
               return allMarkdownRemark.edges.map(edge => {
                 const siteUrl = site.siteMetadata.siteUrl;
                 const postText = `
-                <div style="margin-top=55px; font-style: italic;">(This is an article posted to my blog at works.hnatiuk.dev. You can read it online by <a href="${siteUrl +
+                <div style="margin-top=55px; font-style: italic;">(This is an article posted to my blog at blog.born2code.wtf. You can read it online by <a href="${siteUrl +
                   edge.node.fields.slug}">clicking here</a>.)</div>
               `;
 
@@ -126,7 +126,7 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
-            title: 'hnatiuk.dev blog RSS feed',
+            title: 'Roma Hnatiuk blog RSS feed',
           },
         ],
       },
@@ -165,8 +165,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `hnatiuk.dev`,
-        short_name: `hnatiuk.dev`,
+        name: `blog.born2code.wtf`,
+        short_name: `blog.born2code.wtf/`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#ffa7c4`,

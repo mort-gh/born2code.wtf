@@ -4,13 +4,7 @@ date: '2020-03-01'
 spoiler: React Native - Mobile application for diet
 cta: 'react'
 ---
-
-![React](./react-original-wordmark.svg)
-![Redux](./redux.svg)
-![JavaScript](./javascript-original.svg)
-![MongoDB](./mongodb-plain-wordmark.svg)
-![Apple](./apple-original.svg)
-![Android](./android-plain.svg)
+`JavaScript`, `React`, `React-native`, `Redux`, `MongoDB`, `iOS`, `Android`
 ![]()
 
 Mobile (iOS / Android) application to find and track your daily diet.

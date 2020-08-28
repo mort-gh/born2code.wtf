@@ -3,13 +3,7 @@ title: 'GoITeens'
 date: '2019-11-28'
 spoiler: HTML5, CSS3 - Landing for GoITeens children's IT school.
 ---
-
-
-![Gulp](./gulp-plain.svg)
-![HTML5](./html5-plain-wordmark.svg)
-![CSS3](./css3-plain-wordmark.svg)
-![Sass](./sass-original.svg)
-![GitHub](./github-original-wordmark.svg)
+`Gulp`, `HTML5`, `CSS3`, `Sass(SCSS)`
 ![]()
 
 Adaptive layout of a landing page for GoITeens children's educational IT school.

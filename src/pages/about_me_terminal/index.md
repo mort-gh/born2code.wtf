@@ -3,13 +3,7 @@ title: 'About me - web terminal'
 date: '2020-05-18'
 spoiler: Website - portfolio in the form of a console terminal
 ---
-
-![Webpack](./webpack-plain.svg)
-![React](./react-original-wordmark.svg)
-![JavaScript](./javascript-original.svg)
-![HTML5](./html5-plain-wordmark.svg)
-![CSS3](./css3-plain-wordmark.svg)
-![GitHub](./github-original-wordmark.svg)
+`javaScript`, `React`, `HTML5`
 ![]()
 
 The idea is to implement a personal website as a web terminal.

@@ -4,14 +4,7 @@ date: '2020-01-15'
 spoiler: React - Select and search for wallpapers.
 cta: 'react'
 ---
-
-
-![Webpack](./webpack-plain.svg)
-![React](./react-original-wordmark.svg)
-![JavaScript](./javascript-original.svg)
-![HTML5](./html5-plain-wordmark.svg)
-![CSS3](./css3-plain-wordmark.svg)
-![GitHub](./github-original-wordmark.svg)
+`JavaScript`, `React`, `HTML5`
 ![]()
 
 Search for desktop wallpapers.

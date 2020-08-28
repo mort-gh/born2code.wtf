@@ -137,7 +137,7 @@ class BlogPostTemplate extends React.Component {
       enSlug.length - 1
     )}/index${lang === 'en' ? '' : '.' + lang}.md`;
     const discussUrl = `https://mobile.twitter.com/search?q=${encodeURIComponent(
-      `https://works.hnatiuk.dev${enSlug}`
+      `https://blog.born2code.wtf${enSlug}`
     )}`;
 
     return (
@@ -176,7 +176,7 @@ class BlogPostTemplate extends React.Component {
             </header>
             <div dangerouslySetInnerHTML={{ __html: html }} />
             <footer>
-              <p>
+              {/* <p>
                 <a href={discussUrl} target="_blank" rel="noopener noreferrer">
                   Discuss on Twitter
                 </a>
@@ -184,7 +184,7 @@ class BlogPostTemplate extends React.Component {
                 <a href={editUrl} target="_blank" rel="noopener noreferrer">
                   Edit on GitHub
                 </a>
-              </p>
+              </p> */}
             </footer>
           </article>
         </main>
@@ -197,7 +197,7 @@ class BlogPostTemplate extends React.Component {
           >
             {/* <Signup cta={post.frontmatter.cta} /> */}
           </div>
-          <h3
+          {/* <h3
             style={{
               fontFamily: 'Montserrat, sans-serif',
               marginTop: rhythm(0.25),
@@ -211,10 +211,10 @@ class BlogPostTemplate extends React.Component {
               }}
               to={'/'}
             >
-              works.hnatiuk.dev
+              blog.born2code.wtf
             </Link>
-          </h3>
-          <Bio />
+          </h3> */}
+          {/* <Bio /> */}
           <nav>
             <ul
               style={{

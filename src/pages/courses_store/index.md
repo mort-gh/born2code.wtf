@@ -3,13 +3,7 @@ title: 'Online course store'
 date: '2020-03-28'
 spoiler: MEVN - Implementation of an online store of courses
 ---
-
-![MongoDB](./mongodb.svg)
-![Express](./express-original.svg)
-![Vue.js](./vue-dot-js.svg)
-![Node.js](./node-dot-js.svg)
-![JavaScript](./javascript.svg)
-![Heroku](./heroku.svg)
+`JavaScript`, `Node.js`, `Vue.js`, `Express`, `Mongo DB`, `Heroku`
 ![]()
 
 This is a full-fledged application built on technology MEVN.
