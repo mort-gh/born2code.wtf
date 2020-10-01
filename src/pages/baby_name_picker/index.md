@@ -3,7 +3,7 @@ title: 'Baby Name Picker'
 date: '2020-04-01'
 spoiler: React - Helps you choose the right name for your child.
 ---
-`JavaScript`, `React`, `Redux`, `HTML5`
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9757005c-4a53-4eef-a231-fa021cd72c82/deploy-status)](https://app.netlify.com/sites/optimistic-hamilton-6f090c/deploys) `JavaScript`, `React`, `Redux`, `HTML5`
 ![]()
 
 This resource is designed so that you can calculate your strategic toilet paper supplies during the quarantine period. The top block of the page displays the current result. Use the sliders below to customize your settings. The result is approximate and depends on the characteristics of each paper manufacturer. Also, it does not take into account the individual parameters for each family member.
