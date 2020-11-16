@@ -3,7 +3,9 @@ title: 'React Movie Database'
 date: '2020-09-30'
 spoiler: Searching information about movies and serials
 ---
-[![Netlify Status](https://api.netlify.com/api/v1/badges/7091a598-cf44-446c-8843-f26158fd0b2b/deploy-status)](https://app.netlify.com/sites/keen-colden-df1815/deploys) `JavaScript`, `React.js`, `Redux/Redux-Thunk`, `SASS/SCSS`
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7091a598-cf44-446c-8843-f26158fd0b2b/deploy-status)](https://app.netlify.com/sites/keen-colden-df1815/deploys)
+
+`JavaScript`, `React.js`, `Redux/Redux-Thunk`, `SASS/SCSS`
 ![]()
 
 **React Movie Database** - this is an application built on the basis of the OMDb API, for searching information about movies and serials.
